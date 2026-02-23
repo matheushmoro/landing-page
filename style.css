@@ -591,9 +591,11 @@ header {
     .featured-model-card {
         flex-direction: column-reverse;
         text-align: center;
+        padding: 25px;
     }
     .featured-image {
         max-width: 100%;
+        margin-bottom: 20px;
     }
 }
 
