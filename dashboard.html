@@ -33,6 +33,66 @@
 
     <main class="dashboard-container">
         
+        <div class="dashboard-layout">
+            <!-- Sidebar Esquerda -->
+            <aside class="dashboard-sidebar">
+                <!-- Membros Online -->
+                <div class="sidebar-section">
+                    <h3>🟢 Membros Online (8)</h3>
+                    <ul class="members-list">
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Ana Silva</span>
+                        </li>
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Carlos Dev</span>
+                        </li>
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Marina UI</span>
+                        </li>
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Pedro Tech</span>
+                        </li>
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Julia Mkt</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Chat da Comunidade -->
+                <div class="sidebar-section chat-container">
+                    <h3>💬 Chat da Comunidade</h3>
+                    <div class="chat-messages">
+                        <div class="chat-msg">
+                            <strong>Carlos Dev</strong>
+                            Alguém já testou o novo modelo de E-commerce?
+                        </div>
+                        <div class="chat-msg">
+                            <strong>Ana Silva</strong>
+                            Sim! Ficou incrível, a conversão aumentou muito.
+                        </div>
+                        <div class="chat-msg">
+                            <strong>Suporte IMAG</strong>
+                            Pessoal, manutenção agendada para sábado às 23h.
+                        </div>
+                        <div class="chat-msg">
+                            <strong>Pedro Tech</strong>
+                            Anotado! 👍
+                        </div>
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" placeholder="Digite..." style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; padding: 8px; color: white;">
+                        <button style="background: #5f1d87; border: none; border-radius: 6px; padding: 0 10px; cursor: pointer; color: white;">➤</button>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Conteúdo Principal (Direita) -->
+            <div class="dashboard-content">
         <!-- 1. Visão Geral -->
         <section class="dashboard-section">
             <div class="dashboard-header">
@@ -162,6 +222,8 @@
             </div>
         </section>
 
+            </div> <!-- Fim dashboard-content -->
+        </div> <!-- Fim dashboard-layout -->
     </main>
 </body>
 </html>
